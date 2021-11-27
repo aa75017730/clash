@@ -1,0 +1,76 @@
+- RULE-SET,Proxy,Proxy
+- RULE-SET,Steam,Proxy
+- DOMAIN-SUFFIX,onedrive.com,Proxy
+- DOMAIN-KEYWORD,onedrive,Proxy
+- RULE-SET,BiliBili,BiliBili
+- RULE-SET,E-Hentai,E-Hentai
+- RULE-SET,AdBlock,AdBlock
+- RULE-SET,DIRECT,DIRECT
+- RULE-SET,MicroSoft,DIRECT
+- RULE-SET,Epic,DIRECT
+- RULE-SET,SteamCN,DIRECT
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,17.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR6,fe80::/10,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,Others
+rule-providers:
+  Epic:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Game/Epic.yaml'
+    path: ./Rules/Game/Epic
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Game/Steam.yaml'
+    path: ./Rules/Game/Steam
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Game/SteamCN.yaml'
+    path: ./Rules/Game/SteamCN
+    interval: 86400
+  BiliBili:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Media/BiliBili.yaml'
+    path: ./Rules/Media/BiliBili
+    interval: 86400
+  E-Hentai:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Media/E-Hentai.yaml'
+    path: ./Rules/Media/E-Hentai
+    interval: 86400
+  AdBlock:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Tool/AdBlock.yaml'
+    path: ./Rules/Tool/AdBlock
+    interval: 86400
+  MicroSoft:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Tool/MicroSoft.yaml'
+    path: ./Rules/Tool/MicroSoft
+    interval: 86400
+  DIRECT:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/DIRECT.yaml'
+    path: ./Rules/DIRECT
+    interval: 86400
+  Proxy:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Proxy.yaml'
+    path: ./Rules/Proxy
+    interval: 86400

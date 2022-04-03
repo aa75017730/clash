@@ -1,0 +1,17 @@
+name: 微信去广告
+desc: 去除微信广告
+
+http:
+  mitm:
+    - "mp.weixin.qq.com"
+  script:
+    - match: https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\?
+      name: weixinNOAD
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  weixinNOAD:
+    url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/wechat/wechat_public_accounts.js
+    interval: 3600

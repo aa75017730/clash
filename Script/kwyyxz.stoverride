@@ -1,0 +1,17 @@
+name: 解锁酷我音乐会员下载
+desc: 2022.04.03
+
+http:
+  mitm:
+    - "*.kuwo.cn"
+  script:
+    - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$
+      name: kwyyxz
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  kwyyxz:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/kwyyxz.js
+    interval: 3600

@@ -10,7 +10,6 @@ http:
       type: response
       require-body: true
       timeout: 10
-      
 script-providers:
   BackgroundEraserProCrack:
     url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/BackgroundEraserProCrack.js

@@ -1,0 +1,17 @@
+name: 傲软抠图解锁会员
+desc: 傲软抠图解锁会员(支持新版1.5.1)
+
+http:
+  mitm:
+    - " gw.aoscdn.com"
+  script:
+    - match: ^https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$
+      name: BackgroundEraserProCrack
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  BackgroundEraserProCrack:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/BackgroundEraserProCrack.js
+    interval: 3600

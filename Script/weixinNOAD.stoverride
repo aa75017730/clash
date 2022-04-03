@@ -1,5 +1,5 @@
 name: 微信去广告
-desc: 去除微信广告
+desc: 去除微信de广告
 
 http:
   mitm:

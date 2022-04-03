@@ -1,0 +1,17 @@
+name: 趣制作2.1.1解锁Pro
+desc: 下载地址:https://apps.apple.com/cn/app/id1449242864
+
+http:
+  mitm:
+    - "cm.szsszykj.com"
+  script:
+    - match: https://cm.szsszykj.com/interface/GetVip.php
+      name: qzz
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  qzz:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/qzz.js
+    interval: 3600

@@ -1,0 +1,23 @@
+name: 美颜相机解锁紫钻
+desc: by:@RickeyErickson(2022.01.15)
+
+http:
+  mitm:
+    - "api.account.meitu.com"
+    - "api.meiyan.com"
+  script:
+    - match: ^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json)
+      name: MeiYanXiangJi
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https?:\/\/api\.account\.meitu\.com\/(common\/check_device_login_pwd|users\/show_current\.json)
+      name: MeiYanXiangJi
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  MeiYanXiangJi:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/MeiYanXiangJi.js
+    interval: 3600

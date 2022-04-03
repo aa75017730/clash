@@ -1,11 +1,11 @@
 name: 趣制作2.1.1解锁Pro
-desc: 下载地址:https://apps.apple.com/cn/app/id1449242864
+desc: 趣制作2.1.1解锁Pro,下载地址:https://apps.apple.com/cn/app/id1449242864
 
 http:
   mitm:
     - "cm.szsszykj.com"
   script:
-    - match: https://cm.szsszykj.com/interface/GetVip.php
+    - match: ^https://cm.szsszykj.com/interface/GetVip.php
       name: qzz
       type: response
       require-body: true

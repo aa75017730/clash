@@ -1,0 +1,17 @@
+name: PornHub Unlock Premium
+desc: By Hausd0rff(2022.04.03)
+
+http:
+  mitm:
+    - "cn.pornhubpremium.com"
+  script:
+    - match: ^https?:\/\/cn\.pornhubpremium\.com\/
+      name: PornHubPremiumCrack
+      type: request
+      require-body: false
+      timeout: 10
+      
+script-providers:
+  PornHubPremiumCrack:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js
+    interval: 3600

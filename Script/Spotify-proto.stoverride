@@ -1,0 +1,17 @@
+name: spotify部分解锁premium
+desc: spotify部分解锁premium
+
+http:
+  mitm:
+    - "spclient.wg.spotify.com"
+  script:
+    - match: ^https\:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
+      name: spotify-proto
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  spotify-proto:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+    interval: 3600

@@ -1,0 +1,17 @@
+name: 解锁马卡龙玩图订阅
+desc: 支持商店最新5.3.4(2022.01.24)
+
+http:
+  mitm:
+    - "app.api.versa-ai.com"
+  script:
+    - match: ^https?:\/\/app\.api\.versa-ai\.com\/pay\/order\/iap\/check
+      name: MaKaLongWanTu
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  MaKaLongWanTu:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/MaKaLongWanTu.js
+    interval: 3600

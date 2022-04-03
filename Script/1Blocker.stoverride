@@ -1,0 +1,17 @@
+name: 1Blocker解锁
+desc: 1Blocker解锁
+
+http:
+  mitm:
+    - "api.revenuecat.com"
+  script:
+    - match: https:\/\/api\.revenuecat\.com\/v1\/receipts
+      name: 1Blocker
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  1Blocker:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/1Blocker.js
+    interval: 3600

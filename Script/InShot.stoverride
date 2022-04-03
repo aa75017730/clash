@@ -1,0 +1,17 @@
+name: InShot解锁订阅
+desc: 2022.02.03
+
+http:
+  mitm:
+    - "buy.itunes.apple.com"
+  script:
+    - match: ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
+      name: InShot
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  InShot:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/InShot.js
+    interval: 3600

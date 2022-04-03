@@ -1,0 +1,17 @@
+name: 七猫小说VIP
+desc: 开启七猫小说VIP
+
+http:
+  mitm:
+    - "*.wtzw.com"
+  script:
+    - match: https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/
+      name: QiMaoXiaoShuo
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  QiMaoXiaoShuo:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/QiMaoXiaoShuo.js
+    interval: 3600

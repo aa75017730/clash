@@ -3,7 +3,7 @@ desc: 更优雅的显示返利与历史最低价格
 
 http:
   mitm:
-    - "buy.itunes.apple.com"
+    - "api.m.jd.com"
   script:
     - match: ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item)
       name: jdjf_price

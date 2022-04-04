@@ -1,11 +1,11 @@
-name: 京东比价/返利
-desc: 更优雅的显示返利与历史最低价格
+name: 京东比价
+desc: 显示历史最低价格
 
 http:
   mitm:
-    - "api.m.jd.com"
+    - "%INSERT% api.m.jd.com"
   script:
-    - match: ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item)
+    - match: ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig)
       name: jdjf_price
       type: response
       require-body: true
@@ -14,5 +14,5 @@ http:
       
 script-providers:
   jdjf_price:
-    url: https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js
+    url: https://raw.githubusercontent.com/githubdulong/Script/master/jd_tb_price.js
     interval: 3600

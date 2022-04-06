@@ -1,0 +1,147 @@
+name: Stash覆写合集
+desc: Stash覆写合集，一些APP解锁内容
+
+http:
+  mitm:
+    - "api.revenuecat.com"
+    - "gw.aoscdn.com"
+    - "app.api.versa-ai.com"
+    - "api.xiuxiu.meitu.com"
+    - "h5.xiuxiu.meitu.com"
+    - "api.account.meitu.com"
+    - "api.meiyan.com"
+    - "cn.pornhubpremium.com"
+    - "*.wtzw.com"
+    - "www.xmind.cn"
+    - "api-cs.intsig.net"
+    - "cm.szsszykj.com"
+    - "mp.weixin.qq.com"
+
+  script:
+# 1Blocker解锁
+    - match: https:\/\/api\.revenuecat\.com\/v1\/receipts
+      name: 1Blocker1
+      type: response
+      require-body: true
+      timeout: 10
+# 傲软抠图解锁会员
+    - match: https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$
+      name: BackgroundEraserProCrack1
+      type: response
+      require-body: true
+      timeout: 10
+# 解锁马卡龙玩图订阅
+    - match: ^https?:\/\/app\.api\.versa-ai\.com\/pay\/order\/iap\/check
+      name: MaKaLongWanTu1
+      type: response
+      require-body: true
+      timeout: 10
+# 美图秀秀
+    - match: ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/
+      name: MeiTuXiuXiu1
+      type: response
+      require-body: true
+      timeout: 10
+# 美颜相机解锁紫钻
+    - match: ^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json)
+      name: MeiYanXiangJi1
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https?:\/\/api\.account\.meitu\.com\/(common\/check_device_login_pwd|users\/show_current\.json)
+      name: MeiYanXiangJi1
+      type: response
+      require-body: true
+      timeout: 10
+# PornHub Unlock Premium
+    - match: ^https?:\/\/cn\.pornhubpremium\.com\/
+      name: PornHubPremiumCrack1
+      type: request
+      require-body: false
+      timeout: 10
+# 七猫小说VIP
+    - match: https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/
+      name: QiMaoXiaoShuo1
+      type: response
+      require-body: true
+      timeout: 10
+# XMind解锁Pro
+    - match: https:\/\/www\.xmind\.cn\/\_res\/devices
+      name: XMind1
+      type: response
+      require-body: true
+      timeout: 10
+# 扫描全能王 pro
+    - match: https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?
+      name: camscanner1
+      type: response
+      require-body: true
+      timeout: 10
+# 趣制作2.1.1解锁Pro
+    - match: ^https://cm.szsszykj.com/interface/GetVip.php
+      name: qzz1
+      type: response
+      require-body: true
+      timeout: 10
+# 微信去广告
+    - match: https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\?
+      name: weixinNOAD1
+      type: response
+      require-body: true
+      timeout: 10
+# 微信公众号去广告
+    - match: ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad
+      name: weixingzhNOAD1
+      type: response
+      require-body: true
+      timeout: 10
+
+script-providers:
+# 1Blocker解锁 
+  1Blocker1:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/1Blocker.js
+    interval: 3600
+# 傲软抠图解锁会员
+  BackgroundEraserProCrack1:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/BackgroundEraserProCrack.js
+    interval: 3600
+# 解锁马卡龙玩图订阅
+  MaKaLongWanTu1:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/MaKaLongWanTu.js
+    interval: 3600
+# 美图秀秀
+  MeiTuXiuXiu1:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/MeiTuXiuXiu.js
+    interval: 3600
+# 美颜相机解锁紫钻
+  MeiYanXiangJi1:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/MeiYanXiangJi.js
+    interval: 3600
+# PornHub Unlock Premium
+  PornHubPremiumCrack1:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js
+    interval: 3600
+# 七猫小说VIP
+  QiMaoXiaoShuo1:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/QiMaoXiaoShuo.js
+    interval: 3600
+# XMind解锁Pro
+  XMind1:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/XMind.js
+    interval: 3600
+# 扫描全能王 pro
+  camscanner1:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/camscanner.js
+    interval: 3600
+# 趣制作2.1.1解锁Pro
+  qzz1:
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/qzz.js
+    interval: 3600
+# 微信去广告
+  weixinNOAD1:
+    url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/wechat/wechat_public_accounts.js
+    interval: 3600
+# 微信公众号去广告
+  weixingzhNOAD1:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+    interval: 3600

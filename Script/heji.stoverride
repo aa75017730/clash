@@ -16,6 +16,11 @@ http:
     - "api-cs.intsig.net"
     - "cm.szsszykj.com"
     - "mp.weixin.qq.com"
+    - "boxjs.com"
+    - "vip1.kuwo.cn"
+    - "sub.store"
+    - "testflight.apple.com"
+    - "account.wps.cn"
 
   script:
 # 1Blocker解锁
@@ -95,6 +100,37 @@ http:
       type: response
       require-body: true
       timeout: 10
+# BOXJS,安装后访问http://boxjs.com/进入
+    - match: ^https?://boxjs.com
+      name: boxjs
+      type: request
+      require-body: true
+      timeout: 10
+# 酷我音乐, 解锁会员试听及部分功能
+    - match: ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice)
+      name: kuwoD
+      type: response
+      require-body: true
+      timeout: 10
+# Sub-Store高级订阅管理工具
+    - match: ^https?:\/\/sub\.store
+      name: SubStore
+      type: request
+      require-body: true
+      timeout: 10
+# TestFlight区域限制解除
+    - match: ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$
+      name: tf
+      type: request
+      require-body: true
+      timeout: 10
+# WPS Office解锁超级会员部分功能
+    - match: ^https?:\/\/account\.wps\.cn\/api\/users
+      name: wps
+      type: response
+      require-body: true
+      timeout: 10
+      
 
 script-providers:
 # 1Blocker解锁 
@@ -144,4 +180,24 @@ script-providers:
 # 微信公众号去广告
   weixingzhNOAD1:
     url: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+    interval: 3600
+# BOXJS
+  boxjs:
+    url: https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js
+    interval: 3600
+# 酷我音乐, 解锁会员试听及部分功能
+  kuwoD:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+    interval: 3600
+# Sub-Store高级订阅管理工具
+  SubStore:
+    url: https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js
+    interval: 3600
+# TestFlight区域限制解除
+  tf:
+    url: https://gist.githubusercontent.com/NobyDa/9be418b93afc5e9c8a8f4d28ae403cf2/raw/TF_Download.js
+    interval: 3600
+# WPS Office解锁超级会员部分功能
+  wps:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
     interval: 3600

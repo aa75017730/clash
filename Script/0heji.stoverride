@@ -21,6 +21,7 @@ http:
     - "sub.store"
     - "testflight.apple.com"
     - "account.wps.cn"
+    - "boxer.baidu.com"
 
   script:
 # 1Blocker解锁
@@ -130,7 +131,13 @@ http:
       type: response
       require-body: true
       timeout: 10
-      
+# 百度搜索防跳转
+    - match: ^https:\/\/boxer\.baidu\.com\/scheme\?scheme
+      name: Baidu
+      type: response
+      require-body: false
+      timeout: 10
+
 
 script-providers:
 # 1Blocker解锁 
@@ -200,4 +207,8 @@ script-providers:
 # WPS Office解锁超级会员部分功能
   wps:
     url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+    interval: 3600
+# 百度搜索防跳转
+  Baidu:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
     interval: 3600

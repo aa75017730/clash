@@ -31,6 +31,7 @@ http:
     - "140.*.*.*"
     - "183.*.*.*"
     - "203*.*.*"
+    - "biz.caiyunapp.com"
     
   script:
 # 1Blocker解锁
@@ -152,7 +153,12 @@ http:
       type: response
       require-body: false
       timeout: 10
-
+# 解锁 彩云天气/彩云天气Pro SVIP
+    - match: ^https?:\/\/biz\.caiyunapp\.com\/v\d\/user
+      name: CaiYun
+      type: response
+      require-body: true
+      timeout: 10
 
 script-providers:
 # 1Blocker解锁 
@@ -230,4 +236,8 @@ script-providers:
 # 增加微信读书免费时长
   WeRead:
     url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/WeRead.js
+    interval: 3600
+# 解锁 彩云天气/彩云天气Pro SVIP
+  CaiYun:
+    url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/CaiYunWeather.js
     interval: 3600

@@ -140,7 +140,7 @@ http:
       timeout: 10
 # 京东比价
     - match: ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig)
-      name: jd_price
+      name: jdprice
       type: response
       require-body: true
       timeout: 10
@@ -220,6 +220,6 @@ script-providers:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
     interval: 3600
 # 京东比价
-  jd_price:
+  jdprice:
     url: https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
     interval: 3600

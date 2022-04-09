@@ -23,6 +23,7 @@ http:
     - "account.wps.cn"
     - "boxer.baidu.com"
     - "api.m.jd.com"
+    - "notability.com"
     
   script:
 # 1Blocker解锁
@@ -144,6 +145,12 @@ http:
       type: response
       require-body: true
       timeout: 10
+# Notability解锁订阅
+    - match: ^https?:\/\/notability\.com\/subscriptions
+      name: Notability
+      type: response
+      require-body: true
+      timeout: 10
 
 
 script-providers:
@@ -222,4 +229,8 @@ script-providers:
 # 京东比价
   jdprice:
     url: https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+    interval: 3600
+# Notability解锁订阅
+  Notability:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/NotabilityProCrack.js
     interval: 3600

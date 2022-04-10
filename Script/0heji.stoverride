@@ -24,6 +24,9 @@ http:
     - "boxer.baidu.com"
     - "api.m.jd.com"
     - "notability.com"
+    - "biz.caiyunapp.com"
+    
+    
     
   script:
 # 1Blocker解锁
@@ -151,7 +154,14 @@ http:
       type: response
       require-body: true
       timeout: 10
-
+#  彩云天气/彩云天气Pro
+    - match: ^https?:\/\/biz\.caiyunapp\.com\/v\d\/user
+      name: CaiYunWeather
+      type: response
+      require-body: true
+      timeout: 10
+      
+      
 
 script-providers:
 # 1Blocker解锁 
@@ -233,4 +243,8 @@ script-providers:
 # Notability解锁订阅
   Notability:
     url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/NotabilityProCrack.js
+    interval: 3600
+#  彩云天气/彩云天气Pro
+  CaiYunWeather:
+    url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/CaiYunWeather.js
     interval: 3600

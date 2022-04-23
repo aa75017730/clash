@@ -7,23 +7,7 @@ P核及E核
 
 |节点类型|参考规则|
 |---|---|
-|||
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|SS节点|[SS      节点编写范例：](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L206)|
 
 
 * [SS      节点编写范例：](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L206)

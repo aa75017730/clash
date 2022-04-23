@@ -5,7 +5,7 @@ P核及E核
 
 
 # Stash节点编写规则
-* ss      节点编写范例：https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L206
+* SS      节点编写范例：https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L206
 * SSR     节点编写范例：https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L379
 * vmess   节点编写范例：https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L249
 * socks5  节点编写范例：https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L317

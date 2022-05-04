@@ -1,0 +1,412 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: debug
+ipv6: true
+external-controller: 127.0.0.1:9090
+proxy-providers:
+  All:
+    type: http
+    url: "https://api.v1.mk/sub?target=clash&url=https://rss.6yearsok.xyz/link/d8SBgYAKvTZDZ37S?mu=2&list=true&udp=true"
+    interval: 3600
+    path: ./all.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+    filter: "香|香港|hongkong|HongKong"
+  网易云音乐:
+    <<:
+      type: http
+      url: "https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/PoetryU/Scientist/master/Profiles/UnblockNetMusic/unblock.yaml|https://raw.githubusercontent.com/O7Y0/Attached/main/UnblockNeteaseMusic/UnblockNeteaseMusic.txt&list=true&udp=true"
+      interval: 3600
+      path: ./all.yaml
+      health-check:
+        enable: true
+        interval: 600
+        url: http://www.gstatic.com/generate_204
+    filter: "网易|\U0001F3A7"
+dns:
+  enable: true
+  ipv6: true
+  listen: 0.0.0.0:53
+  default-nameserver:
+  - 119.29.29.29
+  - 223.5.5.5
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - localhost.ptlogin2.qq.com
+  - '+.srv.nintendo.net'
+  - '+.stun.playstation.net'
+  - '+.msftconnecttest.com'
+  - '+.msftncsi.com'
+  - '+.xboxlive.com'
+  - 'msftconnecttest.com'
+  - 'xbox.*.microsoft.com'
+  - '*.battlenet.com.cn'
+  - '*.battlenet.com'
+  - '*.blzstatic.cn'
+  - '*.battle.net'
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+proxies:
+- name: 备用
+  password: QazEdcTgb159@$*
+  server: 14.29.124.168
+  type: ss
+  port: 25231
+  cipher: aes-128-cfb
+  udp: true
+- name: "\U0001F1F3\U0001F1F1 荷兰"
+  password: KnJGad3FqTvjqbaX
+  server: 213.183.51.172
+  type: ss
+  port: 9014
+  cipher: aes-256-cfb
+  udp: true
+- name: 一键连1
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  server: jc.ap.fastqvpn.com
+  type: http
+  port: 29980
+  username: 442993652168396800
+  tls: true
+  skip-cert-verify: true
+- name: 一键连4
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  server: 183.240.9.28
+  type: http
+  port: 29984
+  username: 442993652168396800
+  tls: true
+  skip-cert-verify: true
+- name: 一键连5
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  server: 183.240.9.30
+  type: http
+  port: 29979
+  username: 442993652168396800
+  tls: true
+  skip-cert-verify: true
+- name: 一键连6
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  server: 183.240.9.28
+  type: http
+  port: 29979
+  username: 442993652168396800
+  tls: true
+  skip-cert-verify: true
+- name: 一键连7
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  server: 183.240.9.31
+  type: http
+  port: 29983
+  username: 442993652168396800
+  tls: true
+  skip-cert-verify: true
+- name: 一键连8
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  server: 183.240.9.28
+  type: http
+  port: 29987
+  username: 442993652168396800
+  tls: true
+  skip-cert-verify: true
+- name: 一键连9
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  server: 183.240.9.28
+  type: http
+  port: 29988
+  username: 442993652168396800
+  tls: true
+  skip-cert-verify: true
+- name: 一键连10
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  server: 183.240.9.31
+  type: http
+  port: 29987
+  username: 442993652168396800
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1ED\U0001F1F0 wodaming"
+  password:
+  server: 104.24.208.82
+  type: vmess
+  port: 443
+  cipher: auto
+  uuid: c504edd2-f15e-45a6-ad63-3a9840c19d1a
+  network: ws
+  ws-opts:
+    path: /zgjvvws
+    headers:
+      Host: www.wodaming.ga
+  alterId: 0
+  tls: true
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 香港007"
+  password: Paofu
+  server: cm08.paofuvip.xyz
+  type: ss
+  port: 5969
+  cipher: rc4-md5
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 47eaf191202.microsoft.com
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 香港006"
+  password: Paofu
+  server: cm08.paofuvip.xyz
+  type: ss
+  port: 5963
+  cipher: rc4-md5
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 47eaf191202.microsoft.com
+  udp: true
+proxy-groups:
+- name: "\U0001F981 手动切换"
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
+  use:
+  proxies:
+  - ✈️ 一键连
+  - "\U0001F680 白嫖"
+  - 自动选择
+- name: 自动选择
+  type: url-test
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
+  use:
+  - All
+  url: "http://www.gstatic.com/generate_204"
+  interval: 300
+  proxies: null
+- name: ✈️ 一键连
+  type: url-test
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ssLinks.png
+  use:
+  proxies:
+  - 一键连1
+  - 一键连4
+  - 一键连5
+  - 一键连6
+  - 一键连7
+  - 一键连8
+  - 一键连9
+  - 一键连10
+  url: "http://www.gstatic.com/generate_204"
+  interval: 600
+- name: "\U0001F680 白嫖"
+  type: url-test
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ssLinks.png
+  use:
+  proxies:
+  - 备用
+  - "\U0001F1F3\U0001F1F1 荷兰"
+  - "\U0001F1ED\U0001F1F0 wodaming"
+  - "\U0001F1ED\U0001F1F0 香港006"
+  - "\U0001F1ED\U0001F1F0 香港007"
+  url: "http://www.gstatic.com/generate_204"
+  interval: 600
+  proxies: null
+- name: YouTube
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+  proxies:
+  - "\U0001F981 手动切换"
+  - 自动选择
+- name: Telegram
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+  proxies:
+  - "\U0001F981 手动切换"
+  - 自动选择
+- name: NETFLIX
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+  proxies:
+  - "\U0001F981 手动切换"
+  - 自动选择
+- name: Spotify
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
+  proxies:
+  - "\U0001F981 手动切换"
+  - 自动选择
+- name: 国外网站
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
+  proxies:
+  - "\U0001F981 手动切换"
+  - 自动选择
+- name: 苹果服务
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+  proxies:
+  - "\U0001F981 手动切换"
+  - 自动选择
+  - DIRECT
+- name: 微软服务
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+  proxies:
+  - "\U0001F981 手动切换"
+  - 自动选择
+  - DIRECT
+- name: 网易音乐
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music_Unlock.png
+  proxies:
+  - 网易云音乐节点
+  - DIRECT
+- name: 国内网站
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png
+  proxies:
+  - DIRECT
+  - "\U0001F981 手动切换"
+  - 自动选择
+- name: AdBlock
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
+  proxies:
+  - REJECT
+- name: 漏网之鱼
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+  proxies:
+  - "\U0001F981 手动切换"
+  - 自动选择
+  - DIRECT
+- name: 网易云音乐节点
+  type: select
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png
+  use:
+  - 网易云音乐
+  proxies: null
+rule-providers:
+  Direct:
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml"
+    path: ./ruleset/direct.yaml
+    interval: 604800
+  Adblock-Domain:
+    type: http
+    behavior: domain
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml"
+    path: ./ruleset/AdDomain.yaml
+    interval: 604800
+  YouTube:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml"
+    path: ./ruleset/YouTube.yaml
+    interval: 604800
+  Telegram:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml"
+    path: ./ruleset/YouTube.yaml
+    interval: 604800
+  Netflix:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml"
+    path: ./ruleset/Netflix.yaml
+    interval: 604800
+  Spotify:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml"
+    path: ./ruleset/Spotify.yaml
+    interval: 604800
+  Disney:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Disney/Disney.yaml"
+    path: ./ruleset/Disney.yaml
+    interval: 604800
+  Bahamut:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml"
+    path: ./ruleset/Bahamut.yaml
+    interval: 604800
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml"
+    path: ./ruleset/Apple.yaml
+    interval: 604800
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml"
+    path: ./ruleset/Microsoft.yaml
+    interval: 604800
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/NetEaseMusic/NetEaseMusic.yaml"
+    path: ./ruleset/NetEaseMusic.yaml
+    interval: 604800
+  BiliBili:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml"
+    path: ./ruleset/BiliBili.yaml
+    interval: 604800
+  Game:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game.yaml"
+    path: ./ruleset/Game.yaml
+    interval: 604800
+  China:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China.yaml"
+    path: ./ruleset/China.yaml
+    interval: 604800
+  Global:
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.yaml"
+    path: ./ruleset/Global.yaml
+    interval: 604800
+  Global-Domain:
+    type: http
+    behavior: domain
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.yaml"
+    path: ./ruleset/Global-Domain.yaml
+    interval: 604800
+rules:
+- RULE-SET,Direct,DIRECT
+- RULE-SET,Adblock-Domain,AdBlock
+- RULE-SET,YouTube,YouTube
+- RULE-SET,Telegram,Telegram
+- RULE-SET,Spotify,Spotify
+- RULE-SET,Netflix,NETFLIX
+- RULE-SET,Apple,苹果服务
+- RULE-SET,Microsoft,微软服务
+- RULE-SET,NetEaseMusic,网易音乐
+- RULE-SET,Global,国外网站
+- RULE-SET,Global-Domain,国外网站
+- RULE-SET,China,国内网站
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,224.0.0.0/4,DIRECT
+- IP-CIDR,fe80::/10,DIRECT
+- IP-CIDR,119.28.28.28/32,DIRECT
+- IP-CIDR,182.254.116.0/24,DIRECT
+- GEOIP,CN,国内网站
+- MATCH,漏网之鱼

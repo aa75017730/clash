@@ -213,7 +213,6 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 香港007"
   url: "http://www.gstatic.com/generate_204"
   interval: 600
-  proxies: null
 - name: YouTube
   type: select
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png

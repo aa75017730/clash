@@ -63,7 +63,7 @@ http:
       
 script-providers:
   kuwo:
-    url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/kwyy.js
     interval: 3600
     
 rewrite:

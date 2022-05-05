@@ -1,0 +1,76 @@
+name: 酷我解锁VIP等
+desc: 酷我解锁VIP、换肤、无损下载及听书
+
+http:
+  mitm:
+    - "rich.kuwo.cn"
+    - "*.kwcdn.kuwo.cn"
+    - "mobilead.kuwo.cn"
+    - "musicpay.kuwo.cn"
+    - "vip1.kuwo.cn"
+    - "audiobookpay.kuwo.cn"
+    - "tingshu.kuwo.cn"
+    - "omp-audiobookpay.lrts.me"
+  script:
+    - match: https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p
+      name: kuwo
+      type: response
+      require-body: true
+      timeout: 10
+      
+    - match: ^https?:\/\/audiobookpay\.kuwo\.cn/a\.p
+      name: kuwo
+      type: response
+      require-body: true
+      timeout: 10
+      
+    - match: https://tingshu.kuwo.cn/v2/api/user/info
+      name: kuwo
+      type: response
+      require-body: true
+      timeout: 10
+      
+    - match: https?:\/\/audiobooks\.kuwo\.cn\/v2\/api\/user\/info
+      name: kuwo
+      type: response
+      require-body: true
+      timeout: 10
+      
+    - match: https?:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/vip\/extraVipStatus
+      name: kuwo
+      type: response
+      require-body: true
+      timeout: 10
+      
+    - match: ^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme
+      name: kuwo
+      type: response
+      require-body: true
+      timeout: 10
+      
+    - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d
+      name: kuwo
+      type: request
+      require-body: true
+      timeout: 10
+      
+    - match: ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice)
+      name: kuwo
+      type: response
+      require-body: true
+      timeout: 10
+      
+      
+script-providers:
+  kuwo:
+    url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
+    interval: 3600
+    
+rewrite:
+  - ^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ url reject
+  - ^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ url reject
+  - ^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/Ad url reject
+  - https?:\/\/audiobookpay\.kuwo\.cn/a\.p\?op=get_advertright url reject-dict
+
+    
+    

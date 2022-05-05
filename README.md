@@ -8,6 +8,7 @@ P核及E核
 |节点类型|参考规则|
 |---|---|
 |Stash简介|https://stash.wiki/|
+|Stash配置样例|https://stash.wiki/features/example-config|
 |*协议汇总*|*[协议汇总](https://stash.wiki/proxy-protocols/proxy-types)*|
 |*SS*|*[SS节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L206)*|
 |*SSR*|*[SSR节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L379)*|

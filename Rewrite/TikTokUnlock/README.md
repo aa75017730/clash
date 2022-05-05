@@ -1,5 +1,6 @@
 Tiktok解锁说明
-Tiktok解锁必须先抓包安装老版本21.1.0版，Stash文件夹最底部有软件降级方法与工具
+Tiktok解锁必须先抓包安装老版本21.1.0版，Stash文件夹最底部有软件降级方法与工具  
+* 抓包工具：[点击下载](https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/iOS%E6%8A%93%E5%8C%85/iOS%E6%97%A7%E7%89%88%E5%BA%94%E7%94%A8%E4%B8%8B%E8%BD%BDv5.1.exe)
 
 不同观看地区的Tiktok解锁规则，一次仅能使用一个，切勿重复使用!  
 可以像图上一样导入多个，但仅启用一个  

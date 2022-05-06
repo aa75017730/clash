@@ -22,8 +22,8 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 ### 覆写列表
 |**状态**|**名称**|**订阅链接**|**介绍**|
 |---|---|---|---|
-| 🟢 |__Tiktok-JP.stoverride|**[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Rewrite/TikTokUnlock/Tiktok-JP.stoverride)**|TikTok解锁-日本|
-| 🟢 |1Blocker.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/1Blocker.stoverride)|1Blocker解锁|
+| 🟢 |__Tiktok-JP.stoverride__|**[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Rewrite/TikTokUnlock/Tiktok-JP.stoverride)**|TikTok解锁-日本|
+| 🟢 |__1Blocker.stoverride__|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/1Blocker.stoverride)|1Blocker解锁|
 | 🟢 |ADRulesLite.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/ADRulesLite.stoverride)|去广告规则，分流去广告|
 | 🟢 |BackgroundEraserProCrack1.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/BackgroundEraserProCrack1.stoverride)|傲软抠图解锁会员(支持新版1.5.1)|
 | 🟢 |MaKaLongWanTu.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/MaKaLongWanTu.stoverride)|解锁马卡龙玩图订阅|
@@ -54,7 +54,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 | 🟢 |BaiDu.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/BaiDu.stoverride)|百度搜索防跳转|
 | 🟢 |jd_tb_price.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/jd_tb_price.stoverride)|京东比价|
 | 🟢 |Youdao.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Youdao.stoverride)|有道云笔记解锁VIP高级功能|
-| 🟢 |Notability.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Notability.stoverride)|Notability解锁订阅__|
+| 🟢 |Notability.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Notability.stoverride)|Notability解锁订阅|
 
 ```
 ```

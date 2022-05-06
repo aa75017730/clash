@@ -45,4 +45,9 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 ### 排名不分先后
 * [blackmatrix7](https://github.com/blackmatrix7)
 * [yqc007](https://github.com/yqc007)
-* 
+* [I-am-R-E](https://github.com/I-am-R-E)
+* [ddgksf2013](https://github.com/ddgksf2013)
+* [app2smile](https://github.com/app2smile)
+* [NobyDa](https://github.com/NobyDa)
+* [githubdulong](https://github.com/githubdulong)
+* [yjqiang](https://github.com/yjqiang)

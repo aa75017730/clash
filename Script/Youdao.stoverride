@@ -13,5 +13,5 @@ http:
       
 script-providers:
   youdao:
-    url: https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/ydybj.js
     interval: 3600

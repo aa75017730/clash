@@ -38,3 +38,11 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 | 🟢 |weixingzhNOAD.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/weixingzhNOAD.stoverride)|微信公众号去广告|
 | 🟢 |Youdao.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Youdao.stoverride)|有道云笔记解锁VIP高级功能|
 | 🟢 |Notability.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Notability.stoverride)|Notability解锁订阅|
+
+```
+```
+## 鸣谢
+### 排名不分先后
+* [blackmatrix7](https://github.com/blackmatrix7)
+* [yqc007](https://github.com/yqc007)
+* 

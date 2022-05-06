@@ -72,6 +72,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 | 🟢 |__WpsOffice.stoverride__|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/WpsOffice.stoverride)|WPS Office解锁超级会员部分功能|
 | 🟢 |__BaiDu.stoverride__|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/BaiDu.stoverride)|百度搜索防跳转|
 | 🟢 |__jd_tb_price.stoverride__|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/jd_tb_price.stoverride)|京东比价|
+| 🟢 |__JDPrice.stoverride__|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Stash/Script/JDPrice.stoverride)|京东历史价格|
 | 🟢 |__Youdao.stoverride__|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Youdao.stoverride)|有道云笔记解锁VIP高级功能|
 | 🟢 |__Notability.stoverride__|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Notability.stoverride)|Notability解锁订阅|
 

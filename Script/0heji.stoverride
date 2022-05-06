@@ -3,7 +3,7 @@ desc: Stash覆写合集，一些APP解锁内容
 
 http:
   mitm:
-    - g.cn
+    - "g.cn"
     - "*.google.cn"
     - "api.revenuecat.com"
     - "gw.aoscdn.com"

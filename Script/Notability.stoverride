@@ -6,12 +6,12 @@ http:
     - "notability.com"
   script:
     - match: ^https?:\/\/notability\.com\/subscriptions
-      name: notability
+      name: Notability
       type: response
       require-body: true
       timeout: 10
       
 script-providers:
-  notability:
+  Notability:
     url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/NotabilityProCrack.js
     interval: 3600

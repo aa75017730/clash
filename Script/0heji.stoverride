@@ -166,7 +166,7 @@ http:
 script-providers:
 # 有道云笔记解锁VIP高级功能
   youdao:
-    url: https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js
+    url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/ydybj.js
     interval: 3600
 # 1Blocker解锁 
   1Blocker1:

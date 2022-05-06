@@ -20,7 +20,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 | 🟢 |Kuwo.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Kuwo.stoverride)|酷我解锁VIP、换肤、无损下载及听书(部分失效)|
 | 🟢 |MaKaLongWanTu.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/MaKaLongWanTu.stoverride)|解锁马卡龙玩图订阅 > 支持商店最新5.3.4(2022.01.24)|
 | 🟢 |MeiTuXiuXiu.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/MeiTuXiuXiu.stoverride)|美图秀秀(2022.01.17)|
-| 🟢 ||MeiYanXiangJi (2).stoverride[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/MeiYanXiangJi%20(2).stoverride)|美颜相机解锁紫钻|
+| 🟢 |MeiYanXiangJi (2).stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/MeiYanXiangJi%20(2).stoverride)|美颜相机解锁紫钻|
 | 🟢 |PornHubPremiumCrack.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/PornHubPremiumCrack.stoverride)|解锁网页PornHub|
 | 🟢 |QiMaoXiaoShuo.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/QiMaoXiaoShuo.stoverride)|七猫小说VIP|
 | 🔴 |Spotify-proto.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Spotify-proto.stoverride)|spotify部分解锁premium|

@@ -7,3 +7,9 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 * 官方 Twitter：https://twitter.com/StashNetwork
 * Telegram 群组：https://t.me/stashnetworks
 * Telegram 频道：https://t.me/RnNc2RaV8x0wMzQ0
+
+
+## 覆写列表
+|状态|名称|订阅链接|介绍|
+|···|···|···|···|
+|||||

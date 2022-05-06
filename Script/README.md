@@ -23,15 +23,15 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 | 🟢 |MeiYanXiangJi (2).stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/MeiYanXiangJi%20(2).stoverride)|美颜相机解锁紫钻|
 | 🟢 |PornHubPremiumCrack.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/PornHubPremiumCrack.stoverride)|解锁网页PornHub|
 | 🟢 |QiMaoXiaoShuo.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/QiMaoXiaoShuo.stoverride)|七猫小说VIP|
-| 🔴 |Spotify-proto.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Spotify-proto.stoverride)|spotify部分解锁premium|
+| 🔴 |Spotify-proto.stoverride|---|spotify部分解锁premium|
 | 🟢 |StartupAD.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/StartupAD.stoverride)|嘀嗒出行及京东APP开屏去广告，具体APP请直接进入链接查看|
 | 🟢 |VUEpro.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/VUEpro.stoverride)|VUE 解锁PRO会员，享用专业功能|
 | 🟢 |XMind.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/XMind.stoverride)|XMind解锁Pro|
 | 🟢 |Zhihu.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Zhihu.stoverride)|知乎去广告及阅读体验增强,适配知乎8.3.0(8020)|
 | 🟢 |camscanner.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/camscanner.stoverride)|扫描全能王 pro|
 | 🟢 |jdjf_price.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/jdjf_price.stoverride)|京东比价|
-| 🔴 |kwyy.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/kwyy.stoverride)|解锁酷我音乐会员听书|
-| 🔴 |kwyyxz.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/kwyyxz.stoverride)|解锁酷我音乐会员下载|
+| 🔴 |kwyy.stoverride|[选中,右键复制链接地址](---|解锁酷我音乐会员听书|
+| 🔴 |kwyyxz.stoverride|[选中,右键复制链接地址](---|解锁酷我音乐会员下载|
 | 🟢 |qzz.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/qzz.stoverride)|趣制作2.1.1解锁Pro|
 | 🟢 |weixinNOAD.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/weixinNOAD.stoverride)|微信去广告|
 | 🟢 |weixingzhNOAD.stoverride|[选中,右键复制链接地址](https://raw.githubusercontent.com/aa75017730/clash/main/Script/weixingzhNOAD.stoverride)|微信公众号去广告|

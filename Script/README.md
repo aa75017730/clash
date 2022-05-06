@@ -12,14 +12,14 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 ```
 ### 覆写文件的安装及使用
 * `首页`-`覆写`-`安装覆写`进行安装，需开启`重写`、`覆写`、`MitM`功能
-## 参考库
+### 参考库
 * https://github.com/STASH-NETWORKS-LIMITED/stash-example  
 * https://github.com/jnlaoshu/MySelf  
 * https://github.com/Infatuation-Fei/rule  
 * https://github.com/Coldvvater/Clash
 ```
 ```
-## 覆写列表
+### 覆写列表
 |状态|名称|订阅链接|介绍|
 |---|---|---|---|
 | 🟢 |Tiktok-JP.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Rewrite/TikTokUnlock/Tiktok-JP.stoverride)|TikTok解锁-日本|
@@ -58,7 +58,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 
 ```
 ```
-## 鸣谢
+# 鸣谢
 ### 排名不分先后
 * [blackmatrix7](https://github.com/blackmatrix7)
 * [yqc007](https://github.com/yqc007)

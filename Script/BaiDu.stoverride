@@ -1,0 +1,17 @@
+name: 百度搜索
+desc: 百度搜索防跳转
+
+http:
+  mitm:
+    - "boxer.baidu.com"
+  script:
+    - match: ^https:\/\/boxer\.baidu\.com\/scheme\?scheme
+      name: Baidu
+      type: response
+      require-body: false
+      timeout: 10
+      
+script-providers:
+  Baidu:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
+    interval: 3600

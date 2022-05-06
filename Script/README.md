@@ -51,3 +51,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 * [NobyDa](https://github.com/NobyDa)
 * [githubdulong](https://github.com/githubdulong)
 * [yjqiang](https://github.com/yjqiang)
+```
+```
+# 大字报
+开源JS脚本仅供学习交流🍟，欢迎stars🌟，禁止focks🈲️，否则你将被禁止🚫！禁止商业用途🈲️，否则后果自负👻！

@@ -36,3 +36,4 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 | 🟢 |qzz.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/qzz.stoverride)|趣制作2.1.1解锁Pro|
 | 🟢 |weixinNOAD.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/weixinNOAD.stoverride)|微信去广告|
 | 🟢 |weixingzhNOAD.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/weixingzhNOAD.stoverride)|微信公众号去广告|
+| 🟢 |Youdao.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Youdao.stoverride)|有道云笔记解锁VIP高级功能|

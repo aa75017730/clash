@@ -16,6 +16,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 | 🟢 |1Blocker.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/1Blocker.stoverride)|1Blocker解锁|
 | 🟢 |ADRulesLite.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/ADRulesLite.stoverride)|去广告规则，分流去广告|
 | 🟢 |BackgroundEraserProCrack1.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/BackgroundEraserProCrack1.stoverride)|傲软抠图解锁会员(支持新版1.5.1)|
+| 🟢 |MaKaLongWanTu.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/MaKaLongWanTu.stoverride)|解锁马卡龙玩图订阅|
 | 🟢 |Google.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Google.stoverride)|Google CN 重定向|
 | 🔴 |InShot.stoverride|---|InShot解锁订阅|
 | 🟢 |Kuwo.stoverride|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Kuwo.stoverride)|酷我解锁VIP、换肤、无损下载及听书(部分失效)|

@@ -3,8 +3,6 @@ desc: Stash覆写合集，一些APP解锁内容
 
 http:
   mitm:
-    - g.cn
-    - "*.google.cn"
     - "api.revenuecat.com"
     - "gw.aoscdn.com"
     - "app.api.versa-ai.com"
@@ -239,7 +237,3 @@ script-providers:
   Notability:
     url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/NotabilityProCrack.js
     interval: 3600
-    
-  rewrite:
-# Google CN 重定向(将 g|google.cn 重定向回 google.com)
-    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302

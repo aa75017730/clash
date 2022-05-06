@@ -70,7 +70,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 * [yjqiang](https://github.com/yjqiang)
 * [app2smile](https://github.com/app2smile)
 * [STASH-NETWORKS-LIMITED](https://github.com/STASH-NETWORKS-LIMITED)
-* [jnlaoshu/MySelf])https://github.com/jnlaoshu/MySelf)
+* [jnlaoshu/MySelf](https://github.com/jnlaoshu/MySelf)
 * [Infatuation-Fei](https://github.com/Infatuation-Fei)
 * [Coldvvater](https://github.com/Coldvvater)
 ```

@@ -261,3 +261,5 @@ script-providers:
     - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
     - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
     - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
+
+

@@ -3,6 +3,7 @@ desc: Stash覆写合集，一些APP解锁内容
 
 http:
   mitm:
+    - "note.youdao.com"
     - "api.revenuecat.com"
     - "gw.aoscdn.com"
     - "app.api.versa-ai.com"
@@ -28,6 +29,12 @@ http:
     
     
   script:
+# 有道云笔记解锁VIP高级功能
+    - match: https://note.youdao.com/yws/(mapi/payment|api/self)
+      name: youdao
+      type: response
+      require-body: true
+      timeout: 10
 # 1Blocker解锁
     - match: https:\/\/api\.revenuecat\.com\/v1\/receipts
       name: 1Blocker1
@@ -157,6 +164,10 @@ http:
       
 
 script-providers:
+# 有道云笔记解锁VIP高级功能
+  youdao:
+    url: https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js
+    interval: 3600
 # 1Blocker解锁 
   1Blocker1:
     url: https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/1Blocker.js

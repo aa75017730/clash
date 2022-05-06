@@ -9,6 +9,8 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 * Telegram 群组：https://t.me/stashnetworks
 * Telegram 频道：https://t.me/RnNc2RaV8x0wMzQ0
 * 官方github库：https://github.com/STASH-NETWORKS-LIMITED/stash-example  
+* Stash简介：https://stash.wiki
+* Stash配置样例：https://stash.wiki/features/example-config
 ```
 ```
 
@@ -16,8 +18,6 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 
 |节点类型|参考规则|
 |---|---|
-|Stash简介|https://stash.wiki/|
-|Stash配置样例|https://stash.wiki/features/example-config|
 |*协议汇总*|*[协议汇总](https://stash.wiki/proxy-protocols/proxy-types)*|
 |*SS*|*[SS节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L206)*|
 |*SSR*|*[SSR节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L379)*|

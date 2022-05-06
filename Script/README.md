@@ -1,4 +1,7 @@
 # 此处存放一些 Stash 的覆写文件。
+```
+#### 覆写文件的安装及使用
+* `首页`-`覆写`-`安装覆写`进行安装，需开启`重写`、`覆写`、`MitM`功能
 ## 参考库
 * https://github.com/STASH-NETWORKS-LIMITED/stash-example  
 * https://github.com/jnlaoshu/MySelf  

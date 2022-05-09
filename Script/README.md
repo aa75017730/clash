@@ -1,6 +1,5 @@
 # 一些 Stash 的覆写文件及使用说明
-```
-```
+
 ## 关于 Stash
 Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容 clash premium 配置，支持 Rule Set 规则、按需连接、SSID Policy Group、MitM、HTTP 改写等新特性。
 

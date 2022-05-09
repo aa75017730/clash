@@ -1,0 +1,6 @@
+# 使用说明：
+```
+* 解压Clash.NET.1.2.8.x64.7z
+* 解压Fonts.7z后安装字体
+* 启动ClashDotNet.exe
+* 启动失败安装.NET 5.0或以上环境

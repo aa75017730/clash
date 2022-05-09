@@ -16,7 +16,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 
 ## Stash节点编写规则
 
-|节点类型|参考规则|Clash规则|
+|节点类型|Stash参考规则|Clash参考规则|
 |---|---|---|
 |*协议汇总*|*[协议汇总](https://stash.wiki/proxy-protocols/proxy-types)*|https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml|
 |*SS*|*[SS节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L206)*|https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L157|

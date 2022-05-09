@@ -11,8 +11,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 * 官方github库：https://github.com/STASH-NETWORKS-LIMITED/stash-example  
 * Stash简介：https://stash.wiki
 * Stash配置样例：https://stash.wiki/features/example-config
-```
-```
+
 
 ## Stash节点编写规则
 
@@ -28,16 +27,14 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 |*Vless*|*[Vless节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L399)*|待更新|
 |*Snell*|*[Snell节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L338)*|https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L283|
 |*Hysteria*|*[Hysteria节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L363)*|待更新|
-```
-```
+
 ### 覆写文件的安装及使用
 * `首页`-`覆写`-`安装覆写`进行安装，需开启`重写`、`覆写`、`MitM`功能
 ### 参考库
 * https://github.com/jnlaoshu/MySelf  
 * https://github.com/Infatuation-Fei/rule  
 * https://github.com/Coldvvater/Clash
-```
-```
+
 ### 覆写列表
 |**状态**|**名称**|**订阅链接**|**介绍**|
 |---|---|---|---|
@@ -76,8 +73,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 | 🟢 |__Youdao.stoverride__|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Youdao.stoverride)|有道云笔记解锁VIP高级功能|
 | 🟢 |__Notability.stoverride__|[选中,右键复制链接地址或点击查看代码](https://raw.githubusercontent.com/aa75017730/clash/main/Script/Notability.stoverride)|Notability解锁订阅|
 
-```
-```
+
 # 鸣谢
 ### 排名不分先后
 * [blackmatrix7](https://github.com/blackmatrix7)
@@ -93,7 +89,6 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 * [jnlaoshu](https://github.com/jnlaoshu)
 * [Infatuation-Fei](https://github.com/Infatuation-Fei)
 * [Coldvvater](https://github.com/Coldvvater)
-```
-```
+
 # 大字报
 __开源JS脚本仅供学习交流🍟，欢迎stars🌟，禁止focks🈲️，否则你将被禁止🚫！禁止商业用途🈲️，否则后果自负👻！__

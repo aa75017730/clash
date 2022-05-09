@@ -16,15 +16,15 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 
 |节点类型|Stash参考规则|Clash参考规则|
 |---|---|---|
-|*SS*|*[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L206)*|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L157)|
-|*SSR*|*[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L379)*|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L342)|
-|*Vmess*|*[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L249)*|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L193)|
-|*Socks5*|*[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L317)*|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L261)|
-|*Http*|*[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L328)*|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L272)|
-|*Trojan*|*[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L350)*|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L295)|
-|*Vless*|*[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L399)*|待更新|
-|*Snell*|*[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L338)*|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L283)|
-|*Hysteria*|*[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L363)*|待更新|
+|*SS*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L206)|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L157)|
+|*SSR*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L379)|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L342)|
+|*Vmess*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L249)|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L193)|
+|*Socks5*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L317)|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L261)|
+|*Http*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L328)|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L272)|
+|*Trojan*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L350)|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L295)|
+|*Vless*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L399)|待更新|
+|*Snell*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L338)|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L283)|
+|*Hysteria*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L363)|待更新|
 
 ### 覆写文件的安装及使用
 * `首页`-`覆写`-`安装覆写`进行安装，需开启`重写`、`覆写`、`MitM`功能

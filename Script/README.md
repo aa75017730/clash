@@ -25,9 +25,9 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 |*Socks5*|*[Socks5节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L317)*|https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L261|
 |*Http*|*[Http节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L328)*|https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L272|
 |*Trojan*|*[Trojan节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L350)*|https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L295|
-|*Vless*|*[Vless节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L399)*||
+|*Vless*|*[Vless节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L399)*|待更新|
 |*Snell*|*[Snell节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L338)*|https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L283|
-|*Hysteria*|*[Hysteria节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L363)*||
+|*Hysteria*|*[Hysteria节点编写范例](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L363)*|待更新|
 ```
 ```
 ### 覆写文件的安装及使用

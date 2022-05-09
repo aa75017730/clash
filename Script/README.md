@@ -26,7 +26,7 @@ Stash 是一款 iOS 平台基于规则的多协议代理客户端，完全兼容
 |*Snell*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L338)|[Clash参考规则](https://github.com/aa75017730/clash/blob/main/All%20Configuration%20Options.yaml#L283)|
 |*Hysteria*|[Stash参考规则](https://github.com/STASH-NETWORKS-LIMITED/stash-example/blob/main/config.yaml#L363)|待更新|
 
-### 覆写文件的安装及使用
+## 覆写文件的安装及使用
 * `首页`-`覆写`-`安装覆写`进行安装，需开启`重写`、`覆写`、`MitM`功能
 ### 覆写文件参考库
 * https://github.com/jnlaoshu/MySelf  

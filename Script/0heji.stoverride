@@ -149,7 +149,7 @@ http:
       require-body: false
       timeout: 10
 # 京东比价
-    - match: ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig)
+    - match: ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item)
       name: jdprice
       type: response
       require-body: true
@@ -242,7 +242,7 @@ script-providers:
     interval: 3600
 # 京东比价
   jdprice:
-    url: https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+    url: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/Script/JDPrice.js
     interval: 3600
 # Notability解锁订阅
   Notability:

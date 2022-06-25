@@ -20,7 +20,6 @@ http:
     - "boxjs.com"
     - "vip1.kuwo.cn"
     - "sub.store"
-    - "testflight.apple.com"
     - "account.wps.cn"
     - "boxer.baidu.com"
     - "api.m.jd.com"
@@ -130,12 +129,6 @@ http:
       type: request
       require-body: true
       timeout: 10
-# TestFlight区域限制解除
-    - match: ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$
-      name: tf
-      type: request
-      require-body: true
-      timeout: 10
 # WPS Office解锁超级会员部分功能
     - match: ^https?:\/\/account\.wps\.cn\/api\/users
       name: wps
@@ -227,10 +220,6 @@ script-providers:
 # Sub-Store高级订阅管理工具
   SubStore:
     url: https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js
-    interval: 3600
-# TestFlight区域限制解除
-  tf:
-    url: https://gist.githubusercontent.com/NobyDa/9be418b93afc5e9c8a8f4d28ae403cf2/raw/TF_Download.js
     interval: 3600
 # WPS Office解锁超级会员部分功能
   wps:

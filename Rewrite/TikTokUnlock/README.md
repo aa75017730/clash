@@ -3,7 +3,7 @@ Tiktok解锁必须先抓包安装老版本21.1.0版，下面是软件降级方�
 * 抓包工具：[···点击下载](https://pan.baidu.com/share/init?surl=U95g7PzFXpp1OUS_5WdAzA&pwd=code)
 * 老版iTunes：[点击下载](https://secure-appldnld.apple.com/itunes12/091-87819-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A6/iTunes64Setup.exe)
 * 视频：[``````````点击观看](https://b23.tv/FM1h5BD)
-
+* 教程https://github.com/Semporia/TikTok-Unlock
 不同观看地区的Tiktok解锁规则，一次仅能使用一个，切勿重复使用!  
 可以导入多个，但仅启用一个  
 
